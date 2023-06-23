@@ -218,6 +218,7 @@ footer {
   text-underline-offset: 4px;
   border-radius: 50px;
   padding: 10px 25px;
+  margin-top: 60px;
 }
 
 .return-button:hover {
@@ -230,7 +231,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 750px;
 }
 .mbp-description {
   text-align: center;
@@ -240,7 +241,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 700px;
 }
 
 .padding,
@@ -255,8 +256,21 @@ footer {
 }
 
 .conclusion1 {
-  display: inline-block;
-  text-align: left;
-  max-width: 650px;
-  margin-left: 950px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 35%;
+  margin-inline-end: 35%;
+  width: 30%;
+}
+
+.writing-content h2,
+.writing-content p {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.writing-content p {
+  line-height: 1.4;
 }
