@@ -27,8 +27,12 @@ nav {
   font-size: 20px;
 }
 
+.nav-left p {
+  color: #000000;
+}
+
 .logo {
-  width: 50px;
+  width: 60px;
   filter: none;
   position: fixed;
   margin-top: 34px;
@@ -51,7 +55,7 @@ nav {
   text-decoration: none;
   padding: 5px;
   font-size: 20px;
-  color: #333;
+  color: #000000;
 }
 
 .nav-right a:hover {
@@ -62,6 +66,10 @@ nav {
   transition: 0.4s ease-in-out;
 }
 
+.selfie {
+  filter: drop-shadow(3px 3px 3px #969696);
+}
+
 h1 {
   text-align: center;
   line-height: 0.8;
@@ -70,6 +78,10 @@ h1 {
 }
 
 .first-line {
+  margin-top: 230px;
+}
+
+.second-line {
   margin-top: 230px;
 }
 
