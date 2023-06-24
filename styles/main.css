@@ -2,6 +2,10 @@
   font-family: 'Helvetica', Sans-Serif;
 }
 
+p {
+  color: #5c5c5c;
+}
+
 #navigation-bar {
   background-color: white;
   position: fixed;
@@ -105,13 +109,13 @@ h1 {
 }
 
 .box-container .box h3 {
-  color: #444;
+  color: #000000;
   font-size: 22px;
   padding: 10px 0;
 }
 
 .box-container .box p {
-  color: #777;
+  color: #5c5c5c;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -227,10 +231,15 @@ footer {
   text-decoration: none;
 }
 
+.second-title {
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
 .margin-code {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 25px auto 10px auto;
   width: 750px;
 }
 .mbp-description {
@@ -239,29 +248,39 @@ footer {
 
 .box-model {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 5px auto;
   width: 700px;
+}
+
+.padding1,
+.border1,
+.margin1,
+.order {
+  text-align: center;
 }
 
 .padding,
 .border,
 .margin,
-.padding1,
-.border1,
-.margin1,
-.conclusion,
-.order {
+.conclusion {
+  padding: 20px 0;
   text-align: center;
 }
-
+/*
 .conclusion1 {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 35%;
   margin-inline-end: 35%;
-  width: 30%;
+  width: 40%;
+}
+*/
+.conclusion1 {
+  display: block;
+  width: 40%;
+  margin: auto;
+  line-height: 1.4;
 }
 
 .writing-content h2,
@@ -273,4 +292,20 @@ footer {
 
 .writing-content p {
   line-height: 1.4;
+}
+.horizontal-line1 {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+.horizontal-line2 {
+  margin-left: 330px;
+  margin-right: 330px;
+}
+.horizontal-line3 {
+  margin-left: 310px;
+  margin-right: 310px;
+}
+.horizontal-line4 {
+  margin-left: 275px;
+  margin-right: 275px;
 }
