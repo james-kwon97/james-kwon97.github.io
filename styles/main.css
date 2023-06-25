@@ -159,36 +159,7 @@ footer {
   font-size: 0.9rem;
   color: rgb(186, 186, 186);
 }
-/*
-@media screen and (max-width: 768px) {
-  .box-container {
-    padding: 20px;
-  }
-  .nav-left {
-    margin-left: 27px;
-  }
-  .nav-right {
-    margin-right: 27px;
-  }
-  .nav-right a:hover {
-    padding: 6px 16px;
-  }
-  .logo {
-    width: 40px;
-  }
-  .first-line {
-    padding: 20px;
-    font-size: 90px;
-  }
-  .horizontal-line {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  .selfie {
-    width: 200px;
-  }
-}
-*/
+
 @media screen and (max-width: 768px) {
   .first-line {
     font-size: 80px;
@@ -298,22 +269,6 @@ footer {
 
 .writing-content p {
   line-height: 1.4;
-}
-.horizontal-line1 {
-  margin-left: 630px;
-  margin-right: 630px;
-}
-.horizontal-line2 {
-  margin-left: 630px;
-  margin-right: 630px;
-}
-.horizontal-line3 {
-  margin-left: 800px;
-  margin-right: 800px;
-}
-.horizontal-line4 {
-  margin-left: 730px;
-  margin-right: 730px;
 }
 
 @media screen and (max-width: 768px) {
