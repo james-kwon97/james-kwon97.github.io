@@ -4,6 +4,7 @@
 
 p {
   color: #5c5c5c;
+  font-weight: 100;
 }
 
 #navigation-bar {
@@ -88,8 +89,8 @@ h1 {
 }
 
 .horizontal-line {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 100px;
   margin-top: 20px;
 }
@@ -173,19 +174,26 @@ footer {
 }
 
 .subtitle {
-  text-align: center;
+  display: block;
+  width: 70%;
+  margin: auto;
   margin-top: 70px;
 }
 
 .date {
-  text-align: center;
+  display: block;
+  width: 70%;
+  margin: auto;
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .para1,
 .para2,
 .para3 {
-  text-align: center;
+  display: block;
+  width: 70%;
+  margin: auto;
 }
 
 .para3 {
@@ -220,34 +228,38 @@ footer {
   margin-bottom: 50px;
 }
 
-.margin-code,
-.margin-code1 {
-  display: block;
-  margin: 25px auto 10px auto;
-}
-
 .margin-code {
-  width: 400px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
 }
 
-.margin-code1 {
-  width: 400px;
-}
-.mbp-description {
+#margin-images {
   text-align: center;
+  margin-top: 50px;
+}
+
+.mbp-description {
+  display: block;
+  width: 70%;
+  margin: auto;
 }
 
 .box-model {
   display: block;
   margin: 20px auto 5px auto;
-  width: 600px;
+  width: 1000px;
 }
 
 .padding1,
 .border1,
 .margin1,
+.conclusion1,
 .order {
-  text-align: center;
+  display: block;
+  width: 70%;
+  margin: auto;
 }
 
 .padding,
@@ -255,12 +267,20 @@ footer {
 .margin,
 .conclusion {
   padding: 20px 0;
-  text-align: center;
-}
-.conclusion1 {
   display: block;
-  width: 30%;
+  width: 70%;
   margin: auto;
+}
+
+.writing-content .padding, .writing-content .border, .writing-content .margin{
+  margin-top: 40px;
+}
+
+.conclusion {
+  margin-top: 40px;
+}
+
+.conclusion1{
   line-height: 1.4;
 }
 
@@ -295,6 +315,30 @@ footer {
   }
 }
 
+@media screen and (max-width: 1600px) {
+  .margin-code {
+    height: 330px;
+  }
+  .box-model {
+    width: 900px;
+}
+
+@media screen and (max-width: 1300px) {
+  .margin-code {
+    height: 250px;
+  }
+  .box-model {
+    width: 700px;
+}
+
+@media screen and (max-width: 1000px) {
+  .margin-code {
+    height: 200px;
+  }
+  .box-model {
+    width: 70%;
+}
+
 @media screen and (max-width: 768px) {
   .first-line {
     font-size: 80px;
@@ -308,6 +352,10 @@ footer {
   }
   .heading-one {
     font-size: 80px;
+  }
+  .margin-code {
+    width: 70%;
+    height: auto;
   }
 }
 
@@ -332,7 +380,7 @@ footer {
     margin-right: -10px;
   }
   .first-line {
-    font-size: 60px;
+    font-size: 65px;
   }
   .box-container .box img {
     height: 80px;
@@ -340,10 +388,6 @@ footer {
   .heading-one {
     font-size: 60px;
   }
-  .margin-code {
-    width: 90%;
-  }
-  .margin-code1,
   .box-model {
     width: 90%;
   }
@@ -380,7 +424,7 @@ footer {
   .writing-content .padding,
   .border,
   .margin,
-  .conclusion {
+  .conclusion, .date {
     font-size: 18px;
     text-align: left;
     margin-left: 20px;
@@ -390,4 +434,14 @@ footer {
     margin-left: 20px;
     line-height: 1.4;
     width: 90%;
+}
+.te-houtaewa-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+  margin-bottom: -20px;
+}
+.writing-content .mbp-description {
+  margin-top: 30px;
 }
