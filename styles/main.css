@@ -271,6 +271,10 @@ footer {
   margin: auto;
 }
 
+.writing-content .heading-two {
+  margin-top: 100px;
+}
+
 .writing-content p {
   line-height: 1.4;
 }
@@ -309,7 +313,7 @@ footer {
 
 @media screen and (max-width: 500px) {
   .logo {
-    margin-left: 3px;
+    margin-left: -5px;
     width: 40px;
     left: 53px;
   }
@@ -325,7 +329,7 @@ footer {
   }
   .nav-right {
     margin-left: auto;
-    margin-right: 0px;
+    margin-right: -10px;
   }
   .first-line {
     font-size: 60px;
@@ -343,4 +347,47 @@ footer {
   .box-model {
     width: 90%;
   }
+}
+
+@media only screen and (max-width: 500px) {
+  .heading-one {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 150px;
+  }
+  .writing-content h2,
+  .writing-content p {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  .writing-content .heading-two {
+    margin-top: 60px;
+  }
+  .second-title, .subtitle {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .writing-content .mbp-description,
+  .padding1,
+  .border1,
+  .margin1,
+  .conclusion1, .order, .para1, .para2, .para3 {
+    text-align: left;
+    margin-left: 20px;
+  }
+  .writing-content .padding,
+  .border,
+  .margin,
+  .conclusion {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .conclusion1 {
+    text-align: left;
+    margin-left: 20px;
+    line-height: 1.4;
+    width: 90%;
 }
