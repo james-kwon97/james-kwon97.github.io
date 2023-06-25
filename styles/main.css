@@ -14,6 +14,7 @@ p {
   left: 0%;
   right: 0%;
   z-index: 1;
+  box-shadow: 0 0 4px 0 black;
 }
 
 nav {
@@ -68,6 +69,10 @@ nav {
 
 .selfie {
   filter: drop-shadow(3px 3px 3px #969696);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
 }
 
 h1 {
@@ -79,17 +84,6 @@ h1 {
 
 .first-line {
   margin-top: 230px;
-}
-
-.second-line {
-  margin-top: 230px;
-}
-
-.selfie {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 280px;
 }
 
 .horizontal-line {
@@ -165,8 +159,8 @@ footer {
   font-size: 0.9rem;
   color: rgb(186, 186, 186);
 }
-
-@media (max-width: 768px) {
+/*
+@media screen and (max-width: 768px) {
   .box-container {
     padding: 20px;
   }
@@ -192,6 +186,16 @@ footer {
   }
   .selfie {
     width: 200px;
+  }
+}
+*/
+@media screen and (max-width: 768px) {
+  .first-line {
+    font-size: 80px;
+    margin-top: 140px;
+  }
+  .selfie {
+    width: 140px;
   }
 }
 
@@ -252,7 +256,7 @@ footer {
 .margin-code {
   display: block;
   margin: 25px auto 10px auto;
-  width: 950px;
+  width: 800px;
 }
 .mbp-description {
   text-align: center;
@@ -288,7 +292,7 @@ footer {
 .writing-content h2,
 .writing-content p {
   display: block;
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 
@@ -310,4 +314,23 @@ footer {
 .horizontal-line4 {
   margin-left: 730px;
   margin-right: 730px;
+}
+
+@media screen and (max-width: 768px) {
+  .te-houtaewa-photo {
+    width: 90%;
+  }
+  .second-title {
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+  .margin-code {
+    width: 650px;
+  }
+  .box-model {
+    width: 500px;
+  }
+  .conclusion1 {
+    width: 70%;
+  }
 }
