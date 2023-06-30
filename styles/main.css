@@ -272,7 +272,9 @@ footer {
   margin: auto;
 }
 
-.writing-content .padding, .writing-content .border, .writing-content .margin{
+.writing-content .padding,
+.writing-content .border,
+.writing-content .margin {
   margin-top: 40px;
 }
 
@@ -280,7 +282,7 @@ footer {
   margin-top: 40px;
 }
 
-.conclusion1{
+.conclusion1 {
   line-height: 1.4;
 }
 
@@ -297,6 +299,13 @@ footer {
 
 .writing-content p {
   line-height: 1.4;
+}
+
+.analogy {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
 }
 
 @media screen and (max-width: 768px) {
@@ -321,6 +330,7 @@ footer {
   }
   .box-model {
     width: 900px;
+  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -329,6 +339,7 @@ footer {
   }
   .box-model {
     width: 700px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -337,6 +348,11 @@ footer {
   }
   .box-model {
     width: 70%;
+  }
+  .analogy {
+    width: 72%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -391,6 +407,9 @@ footer {
   .box-model {
     width: 90%;
   }
+  .analogy {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -408,7 +427,8 @@ footer {
   .writing-content .heading-two {
     margin-top: 60px;
   }
-  .second-title, .subtitle {
+  .second-title,
+  .subtitle {
     font-size: 20px;
     text-align: left;
     margin-left: 20px;
@@ -417,14 +437,19 @@ footer {
   .padding1,
   .border1,
   .margin1,
-  .conclusion1, .order, .para1, .para2, .para3 {
+  .conclusion1,
+  .order,
+  .para1,
+  .para2,
+  .para3 {
     text-align: left;
     margin-left: 20px;
   }
   .writing-content .padding,
   .border,
   .margin,
-  .conclusion, .date {
+  .conclusion,
+  .date {
     font-size: 18px;
     text-align: left;
     margin-left: 20px;
@@ -434,14 +459,15 @@ footer {
     margin-left: 20px;
     line-height: 1.4;
     width: 90%;
-}
-.te-houtaewa-photo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -50px;
-  margin-bottom: -20px;
-}
-.writing-content .mbp-description {
-  margin-top: 30px;
+  }
+  .te-houtaewa-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    margin-bottom: -20px;
+  }
+  .writing-content .mbp-description {
+    margin-top: 30px;
+  }
 }
