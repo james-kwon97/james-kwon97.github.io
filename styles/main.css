@@ -312,6 +312,14 @@ footer {
   height: 400px;
 }
 
+.links {
+  color: #5c5c5c;
+}
+.links:hover {
+  color: black;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 768px) {
   .te-houtaewa-photo {
     width: 90%;
