@@ -167,6 +167,10 @@ footer {
   margin-bottom: 30px;
 }
 
+.heading-one1 {
+  margin-top: 140px;
+}
+
 .te-houtaewa-photo {
   display: block;
   margin-left: auto;
@@ -366,12 +370,20 @@ footer {
   .logo {
     width: 50px;
   }
-  .heading-one {
-    font-size: 80px;
-  }
   .margin-code {
     width: 70%;
     height: auto;
+  }
+  .heading-one,
+  .heading-one1 {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .heading-one,
+  .heading-one1 {
+    font-size: 80px;
   }
 }
 
@@ -401,7 +413,8 @@ footer {
   .box-container .box img {
     height: 80px;
   }
-  .heading-one {
+  .heading-one,
+  .heading-one1 {
     font-size: 60px;
   }
   .box-model {
@@ -417,6 +430,12 @@ footer {
     text-align: left;
     margin-left: 20px;
     margin-top: 150px;
+  }
+
+  .heading-one1 {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 100px;
   }
   .writing-content h2,
   .writing-content p {
