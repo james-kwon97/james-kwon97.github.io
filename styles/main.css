@@ -312,28 +312,19 @@ footer {
   height: 400px;
 }
 
+.house {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
 .links {
   color: #5c5c5c;
 }
 .links:hover {
   color: black;
   font-weight: bold;
-}
-
-@media screen and (max-width: 768px) {
-  .te-houtaewa-photo {
-    width: 90%;
-  }
-  .second-title {
-    margin-top: 10px;
-    margin-bottom: -10px;
-  }
-  .box-model {
-    width: 500px;
-  }
-  .conclusion1 {
-    width: 70%;
-  }
 }
 
 @media screen and (max-width: 1600px) {
@@ -351,6 +342,9 @@ footer {
   }
   .box-model {
     width: 700px;
+  }
+  .house {
+    width: 80%;
   }
 }
 
@@ -385,6 +379,23 @@ footer {
   .heading-one,
   .heading-one1 {
     font-size: 100px;
+  }
+  .te-houtaewa-photo {
+    width: 90%;
+  }
+  .second-title {
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+  .box-model {
+    width: 500px;
+  }
+  .conclusion1 {
+    width: 70%;
+  }
+  .house {
+    width: 90%;
+    margin-top: 50px;
   }
 }
 
