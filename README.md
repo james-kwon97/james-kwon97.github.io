@@ -1,3 +1,3 @@
 # james-kwon97.github.io
 
-## My first attempt at creating my own to do list!
+## Welcome to my personal blog page that shares my coding journey, about myself and more!
